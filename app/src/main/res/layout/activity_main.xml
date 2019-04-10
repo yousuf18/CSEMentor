@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/cseweblink"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0E1E79"
+            android:onClick="algorithm"
+            android:text="এলগরিদম"
+            android:textColor="#ffff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0E1E79"
+            android:onClick="java"
+            android:text="জাভা"
+            android:textColor="#ffff" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0E1E79"
+            android:onClick="cplusplus"
+            android:text="সি++"
+            android:textColor="#ffff" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0E1E79"
+            android:onClick="python"
+            android:text="পাইথন"
+            android:textColor="#ffff" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0E1E79"
+            android:onClick="learn_c"
+            android:text="সি শিখুন"
+            android:textColor="#ffff" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0E1E79"
+            android:onClick="teacher"
+            android:text="কম্পিউটার সাইন্স এর শিক্ষক"
+            android:textColor="#ffff" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
